@@ -72,9 +72,9 @@
     if($_POST['submit']){
         
         
-        $dsn = 'mysql:dbname=tb230617db;host=localhost';
-        $user = 'tb-230617';
-        $SqlPassword = 'sKwFAVYz35';
+        $dsn = 'データベース名';
+        $user = 'ユーザー名';
+        $SqlPassword = 'パスワード';
         $pdo = new PDO($dsn, $user, $SqlPassword, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
         $sql = "CREATE TABLE IF NOT EXISTS m501table"
         ." ("
