@@ -9,9 +9,9 @@
     <h1>最近ハマっていること</h1>
     <?php
         ini_set('display_errors',0);
-       $dsn = 'mysql:dbname=tb230617db;host=localhost';
-        $user = 'tb-230617';
-        $SqlPassword = 'sKwFAVYz35';
+       $dsn = 'データベース名';
+        $user = 'ユーザー名';
+        $SqlPassword = 'パスワード';
         $pdo = new PDO($dsn, $user, $SqlPassword, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
         //編集機能
         if($_POST['edit']){
